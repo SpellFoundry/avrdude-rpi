@@ -34,5 +34,5 @@ def process():
 
 process()
 GPIO.cleanup()
-print "done with autoreset - ignore Broken pipe errors if Done uploading"
+print ("done with autoreset - ignore Broken pipe errors if Done uploading")
 exit
